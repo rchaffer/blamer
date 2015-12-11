@@ -15,7 +15,7 @@ module Blamer
     private
 
     def userstamp_object
-      User.current_user
+      Contact.current_contact
     end
 
     def _create_record(*args)
